@@ -10,7 +10,7 @@ public class Visit extends BaseEntity {
     @Column(name = "date")
     private LocalDate date;
 
-    @Column(name = "date")
+    @Column(name = "description")
     private String description;
 
     @ManyToOne
